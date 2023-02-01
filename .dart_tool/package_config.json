@@ -32,12 +32,6 @@
       "languageVersion": "2.17"
     },
     {
-      "name": "charcode",
-      "rootUri": "file:///home/cyrille/.pub-cache/hosted/pub.dev/charcode-1.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "cli_util",
       "rootUri": "file:///home/cyrille/.pub-cache/hosted/pub.dev/cli_util-0.3.5",
       "packageUri": "lib/",
@@ -81,9 +75,9 @@
     },
     {
       "name": "http",
-      "rootUri": "file:///home/cyrille/.pub-cache/hosted/pub.dev/http-0.12.2",
+      "rootUri": "file:///home/cyrille/.pub-cache/hosted/pub.dev/http-0.13.5",
       "packageUri": "lib/",
-      "languageVersion": "2.4"
+      "languageVersion": "2.14"
     },
     {
       "name": "http_multi_server",
@@ -93,9 +87,9 @@
     },
     {
       "name": "http_parser",
-      "rootUri": "file:///home/cyrille/.pub-cache/hosted/pub.dev/http_parser-3.1.4",
+      "rootUri": "file:///home/cyrille/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
       "packageUri": "lib/",
-      "languageVersion": "2.3"
+      "languageVersion": "2.12"
     },
     {
       "name": "io",
@@ -171,9 +165,9 @@
     },
     {
       "name": "shelf",
-      "rootUri": "file:///home/cyrille/.pub-cache/hosted/pub.dev/shelf-0.7.9",
+      "rootUri": "file:///home/cyrille/.pub-cache/hosted/pub.dev/shelf-1.4.0",
       "packageUri": "lib/",
-      "languageVersion": "2.1"
+      "languageVersion": "2.17"
     },
     {
       "name": "shelf_packages_handler",
@@ -296,7 +290,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2023-02-01T11:35:18.949558Z",
+  "generated": "2023-02-01T15:56:34.800191Z",
   "generator": "pub",
   "generatorVersion": "2.19.0"
 }
