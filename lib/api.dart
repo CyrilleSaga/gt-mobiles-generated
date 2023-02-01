@@ -1,0 +1,51 @@
+library swagger.api;
+
+import 'dart:async';
+import 'dart:convert';
+import 'package:http/browser_client.dart';
+import 'package:http/http.dart';
+
+part 'api_client.dart';
+part 'api_helper.dart';
+part 'api_exception.dart';
+part 'auth/authentication.dart';
+part 'auth/api_key_auth.dart';
+part 'auth/oauth.dart';
+part 'auth/http_basic_auth.dart';
+
+part 'api/account_resource_api.dart';
+part 'api/actual_rate_resource_api.dart';
+part 'api/bank_account_resource_api.dart';
+part 'api/bill_resource_api.dart';
+part 'api/client_resource_api.dart';
+part 'api/country_resource_api.dart';
+part 'api/document_resource_api.dart';
+part 'api/gt_wallet_resource_api.dart';
+part 'api/phone_operator_resource_api.dart';
+part 'api/phone_resource_api.dart';
+part 'api/public_user_resource_api.dart';
+part 'api/receiver_resource_api.dart';
+part 'api/transaction_resource_api.dart';
+part 'api/user_jwt_controller_api.dart';
+part 'api/user_resource_api.dart';
+part 'model/actual_rate_dto.dart';
+part 'model/admin_user_dto.dart';
+part 'model/bank_account_dto.dart';
+part 'model/bill_dto.dart';
+part 'model/client_dto.dart';
+part 'model/country_dto.dart';
+part 'model/document_dto.dart';
+part 'model/gt_wallet_dto.dart';
+part 'model/jwt_token.dart';
+part 'model/key_and_password_vm.dart';
+part 'model/login_vm.dart';
+part 'model/managed_user_vm.dart';
+part 'model/password_change_dto.dart';
+part 'model/phone_dto.dart';
+part 'model/phone_operator_dto.dart';
+part 'model/receiver_dto.dart';
+part 'model/transaction_dto.dart';
+part 'model/user.dart';
+part 'model/user_dto.dart';
+
+ApiClient defaultApiClient = new ApiClient();
