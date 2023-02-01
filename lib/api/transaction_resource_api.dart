@@ -74,7 +74,6 @@ class TransactionResourceApi {
   ///
   ///
   Future<List<TransactionDTO>?> getAllTransactionsUsingGET({String? filter, int? page, int? size, List<String>? sort}) async {
-
     // verify required params are set
 
     // create path and map variables
@@ -102,7 +101,6 @@ class TransactionResourceApi {
     String contentType = contentTypes.length > 0 ? contentTypes[0] : "application/json";
     List<String> authNames = [];
 
-
     var response = await apiClient.invokeAPI(path, 'GET', queryParams, null, headerParams, formParams, contentType, authNames);
 
     if (response.statusCode >= 400) {
@@ -118,7 +116,6 @@ class TransactionResourceApi {
   ///
   ///
   Future<TransactionDTO?> getTransactionUsingGET(int id) async {
-
     // verify required params are set
     if (id == null) {
       throw new ApiException(400, "Missing required param: id");
@@ -136,7 +133,6 @@ class TransactionResourceApi {
 
     String contentType = contentTypes.length > 0 ? contentTypes[0] : "application/json";
     List<String> authNames = [];
-
 
     var response = await apiClient.invokeAPI(path, 'GET', queryParams, null, headerParams, formParams, contentType, authNames);
 
@@ -172,12 +168,6 @@ class TransactionResourceApi {
 
     String contentType = contentTypes.length > 0 ? contentTypes[0] : "application/json";
     List<String> authNames = [];
-
-    if (contentType.startsWith("multipart/form-data")) {
-      bool hasFields = false;
-      MultipartRequest mp = new MultipartRequest(null, null);
-      if (hasFields) postBody = mp;
-    } else {}
 
     var response = await apiClient.invokeAPI(path, 'PATCH', queryParams, postBody, headerParams, formParams, contentType, authNames);
 
